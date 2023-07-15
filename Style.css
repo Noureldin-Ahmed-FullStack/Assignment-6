@@ -1,0 +1,470 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+:root{
+    --primary-color: #0078ff;
+    --secondary-color: #cde1f8;
+    --MyBlack:#000;
+}
+.first {
+    background-image: url(img/hero-bg.jpg);
+    color: white;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first h1 {
+    text-align: center;
+    font-size: 60px;
+    display: block;
+}
+
+.first p {
+
+    font-size: 40px;
+}
+
+#typed-text {
+    font-size: 24px;
+    /* set the font size as needed */
+}
+
+#typed-text:before {
+    visibility: visible;
+    content: "|";
+    animation: typing 4s steps(50) infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: " D |";
+    }
+
+    2% {
+        content: " DE |";
+    }
+
+    4% {
+        content: " DEV |";
+    }
+
+    6% {
+        content: " DEVE |";
+    }
+
+    8% {
+        content: " DEVEL |";
+    }
+
+    10% {
+        content: " DEVELO |";
+    }
+
+    12% {
+        content: " DEVELOP |";
+    }
+
+    14% {
+        content: " DEVELOPE |";
+    }
+
+    16%,
+    34% {
+        content: " DEVELOPER |";
+    }
+
+    36% {
+        content: " DEVELOPE |";
+    }
+
+    38% {
+        content: " DEVELOP |";
+    }
+
+    40% {
+        content: " DEVELO |";
+    }
+
+    42% {
+        content: " DEVEL |";
+    }
+
+    44% {
+        content: " DEVE |";
+    }
+
+    46% {
+        content: " DEV |";
+    }
+
+    48% {
+        content: " DE |";
+    }
+
+    50% {
+        content: " D |";
+    }
+
+    52% {
+        content: "  |";
+    }
+
+    54% {
+        content: " D |";
+    }
+
+    56% {
+        content: " DE |";
+    }
+
+    58% {
+        content: " DES |";
+    }
+
+    60% {
+        content: " DESI |";
+    }
+
+    62% {
+        content: " DESIG |";
+    }
+
+    64% {
+        content: " DESIGN |";
+    }
+
+    66% {
+        content: " DESIGNE |";
+    }
+
+    68%,
+    84% {
+        content: " DESIGNER |";
+    }
+
+    86% {
+        content: " DESIGNE |";
+    }
+
+    88% {
+        content: " DESIGN |";
+    }
+
+    90% {
+        content: " DESIG |";
+    }
+
+    92% {
+        content: " DESI |";
+    }
+
+    94% {
+        content: " DES |";
+    }
+
+    96% {
+        content: " DE |";
+    }
+
+    98% {
+        content: " D |";
+    }
+
+    100% {
+        content: "  |";
+    }
+}
+
+.second {
+    background-color: #eee;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.second .container {
+    padding: 64px 48px;
+}
+
+.lul-title:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: 500px;
+}
+
+.third {
+    text-align: center;
+    background-color: #eee;
+}
+
+#services .container {
+    background-color: #eee;
+}
+
+.ico-circle {
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.row .ico-circle {
+    height: 80px;
+    width: 80px;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.third .ico-circle {
+    transition: all 1s;
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 0 10px var(--primary-color);
+}
+.third .ico-circle:hover{
+    --MyBlack:#fff;
+}
+.third .ico-circle:hover{
+    color: #fff;
+    box-shadow: 0 0 0 10px var(--secondary-color);
+    background-color: var(--primary-color);
+}
+.service-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.service-ico .ico-circle i {
+    font-size: 60px;
+    color: var(--MyBlack)
+}
+
+.overlay-mf {
+    position: absolute;
+    top: 0;
+    background-color: #0078ff;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.section-counter {
+    background-image: url(img/counters-bg.jpg);
+    background-size: cover;
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+
+.row h2 {
+    font-size: 19px;
+    margin-top: 25px;
+    color: #000;
+}
+
+.w-ctegory {
+    color: #0078ff;
+}
+
+.work-content {
+    color: #4e4e4e;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+.work-content .row {
+    margin: auto;
+    width: 90%;
+}
+
+.work-content .w-like {
+    padding-top: 30px;
+    font-size: 2.5rem;
+    color: #0078ff;
+    float: right;
+}
+
+.work-img {
+    overflow: hidden;
+}
+
+.work-img img {
+    display: block;
+    transition: transform 1.5s ease-out;
+}
+
+.work-img:hover img {
+    transform: scale(1.2);
+}
+
+.title-box {
+    padding: 25px 0;
+}
+
+.title-box h3 {
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.actor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myH3 {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.description {
+    margin-bottom: 100px;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card-category {
+    display: flex;
+}
+
+.category {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: auto;
+    display: inline-block;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #0078ff;
+
+}
+
+.post-author img {
+    width: 10%;
+}
+
+.post-author a {
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.card-footer {
+    display: flex;
+}
+
+#blog {
+    margin-bottom: 100px;
+}
+
+.box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+    color: #000;
+    text-align: left;
+}
+
+.title-left {
+    padding-bottom: 20px;
+}
+
+.list-ico {
+    list-style-type: none;
+    font-size: 16px;
+}
+.list-ico span{
+    
+    color: #0062d3;
+}
+.socials ul {
+    list-style-type: none;
+    display: flex;
+}
+#contact .ico-circle{
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    color: #1e1e1e;
+}
+.socials ul li{
+    padding: 0 20px;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: #0062d3;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.9); /* Set the background color */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff; /* Set the text color */
+  }
+  .navbar-brand{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .navbar-brand:hover {
+    color: #fff;
+  }
